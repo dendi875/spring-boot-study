@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="autoconfigure" />
         <module name="overview" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="autoconfigure" target="1.8" />
       <module name="overview" target="1.8" />
       <module name="spring-boot-overview" target="1.5" />
       <module name="spring-boot-study" target="1.8" />
@@ -17,6 +19,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="autoconfigure" options="-parameters" />
       <module name="overview" options="-parameters" />
       <module name="spring-boot-study" options="-parameters" />
     </option>
