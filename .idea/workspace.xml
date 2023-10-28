@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3513fbc5-1542-4d22-9aeb-4a680c939d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/autoconfigure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/AutoConfigureSpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/annotation/FirstLevelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/annotation/SecondLevelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/bootstrap/RepositoryBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/repository/MyFirstLevelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overview/第一节 系列总览-核心特性.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_24_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/annotation/EnableHelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/annotation/HelloWorldImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/bootstrap/EnableHelloWorldBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoconfigure/src/main/java/com/zq/autoconfigure/configuration/HelloWorldConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview/overview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/overview/overview.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/overview/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview/src/main/java/com/zq/overview/web/servlet/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/overview/src/main/java/com/zq/overview/web/servlet/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overview/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overview/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +67,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RepositoryBootstrap">
+  <component name="RunManager" selected="Application.EnableHelloWorldBootstrap">
+    <configuration name="EnableHelloWorldBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zq.autoconfigure.bootstrap.EnableHelloWorldBootstrap" />
+      <module name="autoconfigure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zq.autoconfigure.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepositoryBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zq.autoconfigure.bootstrap.RepositoryBootstrap" />
       <module name="autoconfigure" />
@@ -109,6 +90,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnableHelloWorldBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="autoconfigure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zq.autoconfigure.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.autoconfigure.bootstrap.EnableHelloWorldBootstrap" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,6 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnableHelloWorldBootstrap" />
+        <item itemvalue="Spring Boot.EnableHelloWorldBootstrap" />
         <item itemvalue="Application.RepositoryBootstrap" />
         <item itemvalue="Spring Boot.OverviewSpringBootApplication" />
       </list>
@@ -143,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698404419351</updated>
-      <workItem from="1698404425484" duration="15380000" />
+      <workItem from="1698404425484" duration="18118000" />
     </task>
     <servers />
   </component>
@@ -155,46 +151,50 @@
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
     <state x="-1360" y="-216" key="#Project_Structure/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698409393023" />
-    <state width="1858" height="373" key="GridCell.Tab.0.bottom" timestamp="1698494862133">
+    <state x="1000" y="314" key="#com.intellij.ide.util.MemberChooser" timestamp="1698500653155">
+      <screen x="0" y="25" width="1792" height="1048" />
+    </state>
+    <state x="1000" y="314" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1048@0.25.1792.1048" timestamp="1698500653155" />
+    <state width="1750" height="160" key="GridCell.Tab.0.bottom" timestamp="1698500722751">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="419" key="GridCell.Tab.0.bottom/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416421657" />
-    <state width="1858" height="373" key="GridCell.Tab.0.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1698494862133" />
-    <state width="1858" height="373" key="GridCell.Tab.0.center" timestamp="1698494862132">
+    <state width="1750" height="160" key="GridCell.Tab.0.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1698500722751" />
+    <state width="1750" height="160" key="GridCell.Tab.0.center" timestamp="1698500722751">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="419" key="GridCell.Tab.0.center/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416421657" />
-    <state width="1858" height="373" key="GridCell.Tab.0.center/0.25.1792.1048@0.25.1792.1048" timestamp="1698494862132" />
-    <state width="1858" height="373" key="GridCell.Tab.0.left" timestamp="1698494862131">
+    <state width="1750" height="160" key="GridCell.Tab.0.center/0.25.1792.1048@0.25.1792.1048" timestamp="1698500722751" />
+    <state width="1750" height="160" key="GridCell.Tab.0.left" timestamp="1698500722750">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="419" key="GridCell.Tab.0.left/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416421656" />
-    <state width="1858" height="373" key="GridCell.Tab.0.left/0.25.1792.1048@0.25.1792.1048" timestamp="1698494862131" />
-    <state width="1858" height="373" key="GridCell.Tab.0.right" timestamp="1698494862132">
+    <state width="1750" height="160" key="GridCell.Tab.0.left/0.25.1792.1048@0.25.1792.1048" timestamp="1698500722750" />
+    <state width="1750" height="160" key="GridCell.Tab.0.right" timestamp="1698500722751">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="419" key="GridCell.Tab.0.right/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416421657" />
-    <state width="1858" height="373" key="GridCell.Tab.0.right/0.25.1792.1048@0.25.1792.1048" timestamp="1698494862132" />
-    <state width="1858" height="208" key="GridCell.Tab.1.bottom" timestamp="1698494499850">
+    <state width="1750" height="160" key="GridCell.Tab.0.right/0.25.1792.1048@0.25.1792.1048" timestamp="1698500722751" />
+    <state width="1750" height="491" key="GridCell.Tab.1.bottom" timestamp="1698500498828">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="419" key="GridCell.Tab.1.bottom/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416421659" />
-    <state width="1858" height="208" key="GridCell.Tab.1.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1698494499850" />
-    <state width="1858" height="208" key="GridCell.Tab.1.center" timestamp="1698494499849">
+    <state width="1750" height="491" key="GridCell.Tab.1.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1698500498828" />
+    <state width="1750" height="491" key="GridCell.Tab.1.center" timestamp="1698500498828">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="419" key="GridCell.Tab.1.center/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416421658" />
-    <state width="1858" height="208" key="GridCell.Tab.1.center/0.25.1792.1048@0.25.1792.1048" timestamp="1698494499849" />
-    <state width="1858" height="208" key="GridCell.Tab.1.left" timestamp="1698494499849">
+    <state width="1750" height="491" key="GridCell.Tab.1.center/0.25.1792.1048@0.25.1792.1048" timestamp="1698500498828" />
+    <state width="1750" height="491" key="GridCell.Tab.1.left" timestamp="1698500498827">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="419" key="GridCell.Tab.1.left/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416421658" />
-    <state width="1858" height="208" key="GridCell.Tab.1.left/0.25.1792.1048@0.25.1792.1048" timestamp="1698494499849" />
-    <state width="1858" height="208" key="GridCell.Tab.1.right" timestamp="1698494499850">
+    <state width="1750" height="491" key="GridCell.Tab.1.left/0.25.1792.1048@0.25.1792.1048" timestamp="1698500498827" />
+    <state width="1750" height="491" key="GridCell.Tab.1.right" timestamp="1698500498828">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="419" key="GridCell.Tab.1.right/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416421659" />
-    <state width="1858" height="208" key="GridCell.Tab.1.right/0.25.1792.1048@0.25.1792.1048" timestamp="1698494499850" />
+    <state width="1750" height="491" key="GridCell.Tab.1.right/0.25.1792.1048@0.25.1792.1048" timestamp="1698500498828" />
     <state x="-1331" y="-181" key="NewModule_or_Project.wizard" timestamp="1698409873463">
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
@@ -213,10 +213,10 @@
     </state>
     <state x="-1556" y="-178" key="new project wizard/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698409591123" />
     <state x="483" y="249" key="new project wizard/0.25.1792.1048@0.25.1792.1048" timestamp="1698492646222" />
-    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup" timestamp="1698494914712">
+    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup" timestamp="1698500536081">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-1278" y="-172" width="670" height="676" key="search.everywhere.popup/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698416585522" />
-    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup/0.25.1792.1048@0.25.1792.1048" timestamp="1698494914712" />
+    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup/0.25.1792.1048@0.25.1792.1048" timestamp="1698500536081" />
   </component>
 </project>
