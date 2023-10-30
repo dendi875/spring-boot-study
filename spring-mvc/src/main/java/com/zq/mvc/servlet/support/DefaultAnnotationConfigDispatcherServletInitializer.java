@@ -1,5 +1,6 @@
 package com.zq.mvc.servlet.support;
 
+import com.zq.mvc.config.DispatcherServletConfiguration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 /**
@@ -30,7 +31,7 @@ public class DefaultAnnotationConfigDispatcherServletInitializer extends
 	 */
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		return new Class[]{DefaultAnnotationConfigDispatcherServletInitializer.class};
+		return new Class[]{DispatcherServletConfiguration.class};
 	}
 
 	/**

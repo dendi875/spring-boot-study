@@ -8,6 +8,7 @@
         <module>autoconfigure</module>
         <module>application</module>
         <module>spring-mvc</module>
+        <module>springboot-mvc</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

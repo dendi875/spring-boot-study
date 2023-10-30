@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-mvc" />
         <module name="autoconfigure" />
         <module name="overview" />
         <module name="spring-mvc" />
@@ -19,6 +20,7 @@
       <module name="spring-boot-overview" target="1.5" />
       <module name="spring-boot-study" target="1.8" />
       <module name="spring-mvc" target="1.8" />
+      <module name="springboot-mvc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="overview" options="-parameters" />
       <module name="spring-boot-study" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
+      <module name="springboot-mvc" options="-parameters" />
     </option>
   </component>
 </project>
