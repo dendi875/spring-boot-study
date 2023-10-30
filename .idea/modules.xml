@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/autoconfigure/autoconfigure.iml" filepath="$PROJECT_DIR$/autoconfigure/autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/overview/overview.iml" filepath="$PROJECT_DIR$/overview/overview.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-study.iml" filepath="$PROJECT_DIR$/spring-boot-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
     </modules>
   </component>
 </project>
