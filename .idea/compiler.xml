@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="autoconfigure" />
         <module name="overview" />
+        <module name="application" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="application" target="1.8" />
       <module name="autoconfigure" target="1.8" />
       <module name="overview" target="1.8" />
       <module name="spring-boot-overview" target="1.5" />
@@ -19,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="application" options="-parameters" />
       <module name="autoconfigure" options="-parameters" />
       <module name="overview" options="-parameters" />
       <module name="spring-boot-study" options="-parameters" />

@@ -1,0 +1,14 @@
+# Spring 应用上下文初始化器 ApplicationContextInitializer 实现
+org.springframework.context.ApplicationContextInitializer=\
+com.zq.applicaiton.context.AfterApplicationContextInitializer,\
+com.zq.applicaiton.context.HelloWorldApplicationContextInitializer
+
+# Spring 事件监听器 ApplicationListener 实现
+org.springframework.context.ApplicationListener=\
+com.zq.applicaiton.listener.AfterApplicationListener,\
+com.zq.applicaiton.listener.HelloWorldApplicationListener,\
+com.zq.applicaiton.listener.BeforeConfigFileApplicationListener
+
+# Spring 运行监听器 SpringApplicationRunListener 实现
+org.springframework.boot.SpringApplicationRunListener=\
+com.zq.applicaiton.run.HelloWorldRunListener

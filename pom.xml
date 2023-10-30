@@ -6,6 +6,7 @@
     <modules>
         <module>overview</module>
         <module>autoconfigure</module>
+        <module>application</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
