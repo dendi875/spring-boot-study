@@ -24,6 +24,11 @@ import javax.servlet.http.HttpServletResponse;
  * 4-6 Web MVC 注解驱动.mp4
  * 4-8 WebMvcConfigurer 注入过程.mp4
  *
+ * @EnableWebMvc 这个注解替代
+ * spring-mvc/src/main/webapp/WEB-INF/app-context.xml 中的实现
+ * <!--    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>-->
+ * <!--    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>-->
+ *
  * @author <a href="mailto:quanzhang875@gmail.com">quanzhang875</a>
  * @since  2023-10-30 17:30:40
  */
@@ -31,6 +36,14 @@ import javax.servlet.http.HttpServletResponse;
 @EnableWebMvc
 public class WebMvcConfig implements WebMvcConfigurer {
 
+	/**
+	 代替 spring-mvc/src/main/webapp/WEB-INF/app-context.xml 中的实现
+	 <!--    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
+	 <!--        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>-->
+	 <!--        <property name="prefix" value="/WEB-INF/jsp/"/>-->
+	 <!--        <property name="suffix" value=".jsp"/>-->
+	 <!--    </bean>-->
+	 */
 	@Bean
 	public ViewResolver viewResolver(){
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
