@@ -9,9 +9,9 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
  * Spring 适配
  * 		SpringServletContainerInitializer
  *
- * Spring SPI
+ * Spring SPI https://docs.spring.io/spring-framework/docs/5.2.2.RELEASE/spring-framework-reference/web.html#mvc-servlet-special-bean-types
  * 		基础接口： WebApplicationInitializer
- * 		编程驱动： AbstractDispatcherServletInitializer
+ * 		XML驱动： AbstractDispatcherServletInitializer
  * 		注解驱动： AbstractAnnotationConfigDispatcherServletInitializer
  *
  * @author <a href="mailto:quanzhang875@gmail.com">quanzhang875</a>

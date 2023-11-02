@@ -14,9 +14,9 @@ import org.springframework.context.ConfigurableApplicationContext;
  * <p>
  * 在 Spring Boot 场景下，基于约定大于配置的原则，实现 Spring 组件自动装配的目的。其中使用了：
  * 底层装配技术
- * 1. Spring 模式注解装配
- * 2. Spring @Enable 模块装配
- * 3. Spring 条件装配装配
+ * 1. Spring 模式注解装配  	@Configuration
+ * 2. Spring @Enable 模块装配 @EnableHelloWorld
+ * 3. Spring 条件装配装配 	@MyConditionalOnProperty
  * 4. Spring 工厂加载机制
  * 实现类： SpringFactoriesLoader
  * 配置资源： META-INF/spring.factories

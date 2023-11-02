@@ -13,11 +13,11 @@ import org.springframework.context.ConfigurableApplicationContext;
  * @since  2023-10-28 22:25:06
  */
 @SpringBootApplication(scanBasePackages = "com.zq.autoconfigure.service")
-public class CalculateServiceBootstrap {
+public class ProfileBootstrap {
 
 	public static void main(String[] args) {
 		// 构造函数中传了 CalculateServiceBootstrap.class 就相当于在本类加上了 @Configuration 注解
-		ConfigurableApplicationContext context = new SpringApplicationBuilder(CalculateServiceBootstrap.class)
+		ConfigurableApplicationContext context = new SpringApplicationBuilder(ProfileBootstrap.class)
 				.web(WebApplicationType.NONE)
 				.profiles("Java8")
 				.run(args);

@@ -19,7 +19,7 @@
 | ------------------------------------------------ | ------------------------------------- | ------------------------------------------------------------ | -------------------- |
 | starting()                                       | `ApplicationStartingEvent`            | Spring 应用刚启动                                            | 1.0                  |
 | environmentPrepared(ConfigurableEnvironment)     | `ApplicationEnvironmentPreparedEvent` | ConfigurableEnvironment 准备妥当，允许将其调整               | 1.0                  |
-| contextPrepared(ConfigurableApplicationContext)  | 没有发送事件                          | ConfigurableApplicationContext 准备妥当，允许将其调整        | 1.0                  |
+| contextPrepared(ConfigurableApplicationContext)  | 没有发送事件                            | ConfigurableApplicationContext 已准备妥当，允许将其调整        | 1.0                  |
 | contextLoaded(ConfigurableApplicationContext)    | `ApplicationPreparedEvent`            | ConfigurableApplicationContext 已装载，但仍未启动            | 1.0                  |
 | started(ConfigurableApplicationContext)          | `ApplicationStartedEvent`             | ConfigurableApplicationContext 已启动，此时 Spring Bean 已初始化完成 | 2.0                  |
 | running(ConfigurableApplicationContext)          | `ApplicationReadyEvent`               | Spring 应用正在运行                                          | 2.0                  |

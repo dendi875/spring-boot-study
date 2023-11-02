@@ -2,6 +2,8 @@
 
 ## 完全自动装配
 
+完全自动装配指：不需要手动添加 Maven 插件，不需要实现接口 WebMvcConfigurer、AbstractAnnotationConfigDispatcherServletInitializer
+
 * 自动装配 DispatcherServlet : DispatcherServletAutoConfiguration
 
 * 替换 @EnableWebMvc : WebMvcAutoConfiguration
@@ -28,3 +30,6 @@
 1. Find in Path
 2. Scope: All Places
 3. File mask：*.json
+
+## 参考
+* https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#boot-features-spring-mvc

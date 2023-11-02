@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 4-16 外部化配置.mp4
  * 4-17 简Spring Boot 时代的简化 - 课纲部分.mp4
  * 4-18 重构 Spring Web MVC 项目.mp4
+ * 4-19 Web MVC 核心总结.mp4
  *
  * 完全自动装配
  * 自动装配 DispatcherServlet : DispatcherServletAutoConfiguration
