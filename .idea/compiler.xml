@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="overview" />
+        <module name="springboot-rest" />
         <module name="spring-mvc" />
         <module name="application" />
         <module name="autoconfigure" />
@@ -22,6 +23,7 @@
       <module name="spring-boot-study" target="1.8" />
       <module name="spring-mvc" target="1.8" />
       <module name="springboot-mvc" target="1.8" />
+      <module name="springboot-rest" target="1.8" />
       <module name="springboot-view" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -33,6 +35,7 @@
       <module name="spring-boot-study" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="springboot-mvc" options="-parameters" />
+      <module name="springboot-rest" options="-parameters" />
       <module name="springboot-view" options="-parameters" />
     </option>
   </component>

@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/overview/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-rest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-view/src/main/java" charset="UTF-8" />
   </component>
 </project>

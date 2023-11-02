@@ -10,6 +10,7 @@
         <module>spring-mvc</module>
         <module>springboot-mvc</module>
         <module>springboot-view</module>
+        <module>springboot-reset</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
