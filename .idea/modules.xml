@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/overview/overview.iml" filepath="$PROJECT_DIR$/overview/overview.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-study.iml" filepath="$PROJECT_DIR$/spring-boot-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc/spring-mvc.iml" filepath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-servlet/spring-servlet.iml" filepath="$PROJECT_DIR$/spring-servlet/spring-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mvc/springboot-mvc.iml" filepath="$PROJECT_DIR$/springboot-mvc/springboot-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rest/springboot-rest.iml" filepath="$PROJECT_DIR$/springboot-rest/springboot-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-view/springboot-view.iml" filepath="$PROJECT_DIR$/springboot-view/springboot-view.iml" />
