@@ -12,6 +12,7 @@
         <module>springboot-view</module>
         <module>springboot-rest</module>
         <module>spring-servlet</module>
+        <module>springboot-servlet</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

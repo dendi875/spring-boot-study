@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3513fbc5-1542-4d22-9aeb-4a680c939d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-servlet/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-servlet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-servlet/src/main/java/com/zq/AsyncServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-servlet/src/main/java/com/zq/servlet/controller/HelloWorldAsyncController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-servlet/src/main/java/com/zq/servlet/support/DefaultAnnotationConfigDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-servlet/第七节 渐行渐远的 Servlet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-servlet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-servlet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-servlet/src/main/java/com/zq/boot/servlet/DefaultSpringBootServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-servlet/src/main/java/com/zq/boot/servlet/SpringBootServletBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-servlet/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-servlet/第七节 渐行渐远的 Servlet.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/overview/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview/src/main/java/com/zq/overview/OverviewSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/overview/src/main/java/com/zq/overview/OverviewSpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview/src/main/java/com/zq/overview/web/servlet/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/overview/src/main/java/com/zq/overview/web/servlet/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autoconfigure/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-servlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-servlet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-servlet/src/main/java/com/zq/AsyncServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-servlet/src/main/java/com/zq/servlet/AsyncServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-servlet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-servlet" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -79,14 +79,14 @@
       <recent name="com.zq.mvc.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-servlet" />
       <recent name="$PROJECT_DIR$/spring-servlet" />
       <recent name="$PROJECT_DIR$/springboot-reset" />
       <recent name="$PROJECT_DIR$/springboot-view/src/main" />
       <recent name="$PROJECT_DIR$/springboot-view/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/springboot-view" />
     </key>
   </component>
-  <component name="RunManager" selected="Remote.Spring MVC Debug">
+  <component name="RunManager" selected="Spring Boot.SpringBootServletBootstrap">
     <configuration name="ConditionalBootstrap" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zq.autoconfigure.bootstrap.ConditionalBootstrap" />
       <module name="autoconfigure" />
@@ -102,19 +102,6 @@
     </configuration>
     <configuration name="SpringThymeleafTemplateEngineBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zq.view.template.engine.SpringThymeleafTemplateEngineBootstrap" />
-      <module name="springboot-view" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zq.view.template.engine.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThymeleafTemplateEngineBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zq.view.template.engine.ThymeleafTemplateEngineBootstrap" />
       <module name="springboot-view" />
       <extension name="coverage">
         <pattern>
@@ -165,6 +152,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootServletBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-servlet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zq.boot.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.boot.servlet.SpringBootServletBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootViewBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-view" />
       <extension name="coverage">
@@ -187,21 +187,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.ConditionalBootstrap" />
-      <item itemvalue="Application.ThymeleafTemplateEngineBootstrap" />
       <item itemvalue="Application.SpringThymeleafTemplateEngineBootstrap" />
       <item itemvalue="Remote.Spring MVC Debug" />
       <item itemvalue="Spring Boot.SpringBootWebMvcBootstrap" />
       <item itemvalue="Spring Boot.SpringBootViewBootstrap" />
       <item itemvalue="Spring Boot.SpringBootRestBootstrap" />
       <item itemvalue="Spring Boot.OverviewSpringBootApplication" />
+      <item itemvalue="Spring Boot.SpringBootServletBootstrap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringBootServletBootstrap" />
         <item itemvalue="Spring Boot.OverviewSpringBootApplication" />
         <item itemvalue="Spring Boot.SpringBootRestBootstrap" />
         <item itemvalue="Spring Boot.SpringBootViewBootstrap" />
         <item itemvalue="Application.SpringThymeleafTemplateEngineBootstrap" />
-        <item itemvalue="Application.ThymeleafTemplateEngineBootstrap" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,7 @@
       <workItem from="1698404425484" duration="72367000" />
       <workItem from="1698830035715" duration="38016000" />
       <workItem from="1698990834946" duration="12917000" />
-      <workItem from="1699016144730" duration="747000" />
+      <workItem from="1699016144730" duration="9568000" />
     </task>
     <servers />
   </component>
@@ -226,11 +226,12 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1360" y="-216" key="#Project_Structure" timestamp="1698999713938">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state x="523" y="214" key="#Project_Structure" timestamp="1699071128405">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-1360" y="-216" key="#Project_Structure/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698999713938" />
     <state x="523" y="214" key="#Project_Structure/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698826076800" />
+    <state x="523" y="214" key="#Project_Structure/0.25.1792.1048@0.25.1792.1048" timestamp="1699071128405" />
     <state x="-1534" y="-222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1698997686024">
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
@@ -269,54 +270,54 @@
     </state>
     <state width="503" height="470" key="DebuggerActiveHint/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698895509624" />
     <state width="453" height="466" key="DebuggerActiveHint/0.25.1792.1048@0.25.1792.1048" timestamp="1698504497635" />
-    <state width="1878" height="156" key="GridCell.Tab.0.bottom" timestamp="1698998077436">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state width="1750" height="124" key="GridCell.Tab.0.bottom" timestamp="1699089301045">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="156" key="GridCell.Tab.0.bottom/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698998077436" />
     <state width="1750" height="230" key="GridCell.Tab.0.bottom/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698890197684" />
-    <state width="1750" height="292" key="GridCell.Tab.0.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1698588213755" />
-    <state width="1878" height="156" key="GridCell.Tab.0.center" timestamp="1698998077435">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state width="1750" height="124" key="GridCell.Tab.0.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301045" />
+    <state width="1750" height="124" key="GridCell.Tab.0.center" timestamp="1699089301044">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="156" key="GridCell.Tab.0.center/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698998077435" />
     <state width="1750" height="230" key="GridCell.Tab.0.center/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698890197684" />
-    <state width="1750" height="292" key="GridCell.Tab.0.center/0.25.1792.1048@0.25.1792.1048" timestamp="1698588213754" />
-    <state width="1878" height="156" key="GridCell.Tab.0.left" timestamp="1698998077435">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state width="1750" height="124" key="GridCell.Tab.0.center/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301044" />
+    <state width="1750" height="124" key="GridCell.Tab.0.left" timestamp="1699089301044">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="156" key="GridCell.Tab.0.left/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698998077435" />
     <state width="1750" height="230" key="GridCell.Tab.0.left/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698890197684" />
-    <state width="1750" height="292" key="GridCell.Tab.0.left/0.25.1792.1048@0.25.1792.1048" timestamp="1698588213754" />
-    <state width="1878" height="156" key="GridCell.Tab.0.right" timestamp="1698998077435">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state width="1750" height="124" key="GridCell.Tab.0.left/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301044" />
+    <state width="1750" height="124" key="GridCell.Tab.0.right" timestamp="1699089301045">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="156" key="GridCell.Tab.0.right/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698998077435" />
     <state width="1750" height="230" key="GridCell.Tab.0.right/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698890197684" />
-    <state width="1750" height="292" key="GridCell.Tab.0.right/0.25.1792.1048@0.25.1792.1048" timestamp="1698588213754" />
-    <state width="1878" height="156" key="GridCell.Tab.1.bottom" timestamp="1698998077437">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state width="1750" height="124" key="GridCell.Tab.0.right/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301045" />
+    <state width="1750" height="124" key="GridCell.Tab.1.bottom" timestamp="1699089301046">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="156" key="GridCell.Tab.1.bottom/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698998077437" />
     <state width="1750" height="230" key="GridCell.Tab.1.bottom/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698890197685" />
-    <state width="1750" height="345" key="GridCell.Tab.1.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1698586872621" />
-    <state width="1878" height="156" key="GridCell.Tab.1.center" timestamp="1698998077436">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state width="1750" height="124" key="GridCell.Tab.1.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301046" />
+    <state width="1750" height="124" key="GridCell.Tab.1.center" timestamp="1699089301046">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="156" key="GridCell.Tab.1.center/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698998077436" />
     <state width="1750" height="230" key="GridCell.Tab.1.center/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698890197685" />
-    <state width="1750" height="345" key="GridCell.Tab.1.center/0.25.1792.1048@0.25.1792.1048" timestamp="1698586872621" />
-    <state width="1878" height="156" key="GridCell.Tab.1.left" timestamp="1698998077436">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state width="1750" height="124" key="GridCell.Tab.1.center/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301046" />
+    <state width="1750" height="124" key="GridCell.Tab.1.left" timestamp="1699089301045">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="156" key="GridCell.Tab.1.left/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698998077436" />
     <state width="1750" height="230" key="GridCell.Tab.1.left/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698890197685" />
-    <state width="1750" height="345" key="GridCell.Tab.1.left/0.25.1792.1048@0.25.1792.1048" timestamp="1698586872620" />
-    <state width="1878" height="156" key="GridCell.Tab.1.right" timestamp="1698998077437">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state width="1750" height="124" key="GridCell.Tab.1.left/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301045" />
+    <state width="1750" height="124" key="GridCell.Tab.1.right" timestamp="1699089301046">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="156" key="GridCell.Tab.1.right/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698998077437" />
     <state width="1750" height="230" key="GridCell.Tab.1.right/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698890197685" />
-    <state width="1750" height="345" key="GridCell.Tab.1.right/0.25.1792.1048@0.25.1792.1048" timestamp="1698586872621" />
+    <state width="1750" height="124" key="GridCell.Tab.1.right/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301046" />
     <state width="1878" height="246" key="GridCell.Tab.2.bottom" timestamp="1698997690995">
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
@@ -372,23 +373,23 @@
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698929390490" />
-    <state x="-1556" y="-178" key="new project wizard" timestamp="1698995837858">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state x="511" y="388" key="new project wizard" timestamp="1699070679646">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-1556" y="-178" key="new project wizard/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698995837858" />
     <state x="483" y="249" key="new project wizard/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698669932977" />
-    <state x="483" y="249" key="new project wizard/0.25.1792.1048@0.25.1792.1048" timestamp="1698585618610" />
+    <state x="511" y="388" key="new project wizard/0.25.1792.1048@0.25.1792.1048" timestamp="1699070679646" />
     <state x="-1319" y="-176" key="run.anything.popup" timestamp="1699016085519">
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
     <state x="-1319" y="-176" key="run.anything.popup/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699016085519" />
     <state x="561" y="253" key="run.anything.popup/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698654432771" />
-    <state x="-1278" y="-172" width="670" height="676" key="search.everywhere.popup" timestamp="1699015183009">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup" timestamp="1699090373940">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-1278" y="-172" width="670" height="676" key="search.everywhere.popup/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699015183009" />
     <state x="599" y="257" width="670" height="672" key="search.everywhere.popup/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698892729996" />
-    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup/0.25.1792.1048@0.25.1792.1048" timestamp="1698587326722" />
+    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup/0.25.1792.1048@0.25.1792.1048" timestamp="1699090373940" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

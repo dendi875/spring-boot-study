@@ -6,24 +6,40 @@
         <artifactId>spring-boot-study</artifactId>
         <groupId>com.zq</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-servlet</artifactId>
-    <packaging>war</packaging> <!--不能少，不然  mvn clean package -Dmaven.test.skip=true 不会包含 tomcat-->
+    <artifactId>springboot-servlet</artifactId>
+    <packaging>war</packaging>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-        </dependency>
-
         <!-- Servlet 3.1 API 依赖-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <scope>provided</scope>
+        </dependency>
+
+        <!--引入子模块作为依赖-->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>spring-servlet</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.hibernate.validator</groupId>
+                    <artifactId>hibernate-validator</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
