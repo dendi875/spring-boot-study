@@ -13,6 +13,7 @@
         <module>springboot-rest</module>
         <module>spring-servlet</module>
         <module>springboot-servlet</module>
+        <module>externalized-configuration</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
