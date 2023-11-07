@@ -13,7 +13,7 @@ import org.springframework.context.annotation.ImportResource;
  * @author <a href="mailto:quanzhang875@gmail.com">quanzhang875</a>
  * @since  2023-11-06 20:22:19
  */
-@ImportResource("META-INF/spring/user-context.xml")
+@ImportResource("classpath:/META-INF/spring/user-context.xml")
 @EnableAutoConfiguration
 public class XmlPlaceHolderExternalizedConfigurationBootstrap {
 

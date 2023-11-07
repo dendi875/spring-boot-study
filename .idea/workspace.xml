@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3513fbc5-1542-4d22-9aeb-4a680c939d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/externalized-configuration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/bootstrap/SpringXmlConfigPlaceHolderBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/bootstrap/XmlPlaceHolderExternalizedConfigurationBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/resources/META-INF/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/resources/META-INF/spring/spring-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/resources/META-INF/spring/user-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalized-configuration/Spring Boot 外部化配置 - 上篇.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/bootstrap/ConditionalOnPropertyBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/bootstrap/ConfigurationPropertiesBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/bootstrap/ValueAnnotationBootstrap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/bootstrap/XmlPlaceHolderExternalizedConfigurationBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/bootstrap/XmlPlaceHolderExternalizedConfigurationBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/externalized-configuration/src/main/java/com/zq/externalized/configuration/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/externalized-configuration/src/main/resources/META-INF/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/externalized-configuration/src/main/resources/META-INF/default.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/externalized-configuration/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/externalized-configuration/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-servlet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/externalized-configuration" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,21 +67,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zq.externalized.configuration.bootstrap" />
       <recent name="com.zq.servlet.support" />
       <recent name="com.zq.rest.controller" />
       <recent name="com.zq.view.controller" />
       <recent name="com.zq.view.config" />
-      <recent name="com.zq.mvc.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/externalized-configuration" />
       <recent name="$PROJECT_DIR$/spring-boot-servlet" />
       <recent name="$PROJECT_DIR$/spring-servlet" />
       <recent name="$PROJECT_DIR$/springboot-reset" />
       <recent name="$PROJECT_DIR$/springboot-view/src/main" />
-      <recent name="$PROJECT_DIR$/springboot-view/src/main/resources/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.XmlPlaceHolderExternalizedConfigurationBootstrap">
+  <component name="RunManager" selected="Spring Boot.ConditionalOnPropertyBootstrap">
     <configuration name="ConditionalBootstrap" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zq.autoconfigure.bootstrap.ConditionalBootstrap" />
       <module name="autoconfigure" />
@@ -99,8 +95,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigurationPropertiesBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="USER_CITY_POST_CODE" value="4000" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.zq.externalized.configuration.bootstrap.ConfigurationPropertiesBootstrap" />
+      <module name="externalized-configuration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zq.externalized.configuration.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringXmlConfigPlaceHolderBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zq.externalized.configuration.bootstrap.SpringXmlConfigPlaceHolderBootstrap" />
+      <module name="externalized-configuration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zq.externalized.configuration.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValueAnnotationBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zq.externalized.configuration.bootstrap.ValueAnnotationBootstrap" />
+      <module name="externalized-configuration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zq.externalized.configuration.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlPlaceHolderExternalizedConfigurationBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zq.externalized.configuration.bootstrap.XmlPlaceHolderExternalizedConfigurationBootstrap" />
       <module name="externalized-configuration" />
       <extension name="coverage">
         <pattern>
@@ -125,41 +163,15 @@
       </RunnerSettings>
       <method v="2" />
     </configuration>
-    <configuration name="OverviewSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="overview" />
+    <configuration name="ConditionalOnPropertyBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="externalized-configuration" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zq.overview.*" />
+          <option name="PATTERN" value="com.zq.externalized.configuration.bootstrap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.overview.OverviewSpringBootApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootRestBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-rest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zq.rest.bootstrap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.rest.bootstrap.SpringBootRestBootstrap" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootServletBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-servlet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zq.boot.servlet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.boot.servlet.SpringBootServletBootstrap" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.externalized.configuration.bootstrap.ConditionalOnPropertyBootstrap" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,19 +201,21 @@
     <list>
       <item itemvalue="Application.ConditionalBootstrap" />
       <item itemvalue="Application.SpringXmlConfigPlaceHolderBootstrap" />
+      <item itemvalue="Application.XmlPlaceHolderExternalizedConfigurationBootstrap" />
+      <item itemvalue="Application.ValueAnnotationBootstrap" />
+      <item itemvalue="Application.ConfigurationPropertiesBootstrap" />
       <item itemvalue="Remote.Spring MVC Debug" />
       <item itemvalue="Spring Boot.SpringBootWebMvcBootstrap" />
       <item itemvalue="Spring Boot.XmlPlaceHolderExternalizedConfigurationBootstrap" />
-      <item itemvalue="Spring Boot.SpringBootRestBootstrap" />
-      <item itemvalue="Spring Boot.OverviewSpringBootApplication" />
-      <item itemvalue="Spring Boot.SpringBootServletBootstrap" />
+      <item itemvalue="Spring Boot.ConditionalOnPropertyBootstrap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConditionalOnPropertyBootstrap" />
+        <item itemvalue="Application.ConfigurationPropertiesBootstrap" />
+        <item itemvalue="Application.ValueAnnotationBootstrap" />
+        <item itemvalue="Application.XmlPlaceHolderExternalizedConfigurationBootstrap" />
         <item itemvalue="Application.SpringXmlConfigPlaceHolderBootstrap" />
-        <item itemvalue="Spring Boot.SpringBootServletBootstrap" />
-        <item itemvalue="Spring Boot.OverviewSpringBootApplication" />
-        <item itemvalue="Spring Boot.SpringBootRestBootstrap" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +233,7 @@
       <workItem from="1698830035715" duration="38016000" />
       <workItem from="1698990834946" duration="12917000" />
       <workItem from="1699016144730" duration="10079000" />
-      <workItem from="1699235488727" duration="6955000" />
+      <workItem from="1699235488727" duration="22825000" />
     </task>
     <servers />
   </component>
@@ -233,21 +247,21 @@
     <state x="-1360" y="-216" key="#Project_Structure/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699271394692" />
     <state x="523" y="214" key="#Project_Structure/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698826076800" />
     <state x="523" y="214" key="#Project_Structure/0.25.1792.1048@0.25.1792.1048" timestamp="1699071128405" />
-    <state x="360" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1699327755852">
+    <state x="360" y="25" width="1071" height="1004" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1699354348882">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-1534" y="-222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698997686024" />
-    <state x="360" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327755852" />
+    <state x="360" y="25" width="1071" height="1004" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699354348882" />
     <state x="-792" y="-73" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1698932036346">
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
     <state x="-792" y="-73" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698932036346" />
     <state x="1053" y="356" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698669009765" />
-    <state x="-849" y="-115" key="#com.intellij.ide.util.MemberChooser" timestamp="1699272678243">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state x="1000" y="314" key="#com.intellij.ide.util.MemberChooser" timestamp="1699353822901">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-849" y="-115" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699272678243" />
-    <state x="1000" y="314" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698663104880" />
+    <state x="1000" y="314" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699353822901" />
     <state x="1000" y="314" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1048@0.25.1792.1048" timestamp="1698588118930" />
     <state x="-1482" y="51" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1698832936043">
       <screen x="-1920" y="-406" width="1920" height="1055" />
@@ -271,53 +285,57 @@
     </state>
     <state width="503" height="470" key="DebuggerActiveHint/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698895509624" />
     <state width="453" height="466" key="DebuggerActiveHint/0.25.1792.1048@0.25.1792.1048" timestamp="1698504497635" />
-    <state width="1750" height="454" key="GridCell.Tab.0.bottom" timestamp="1699327877446">
+    <state x="460" y="416" key="EnvironmentVariablesDialog" timestamp="1699354347390">
+      <screen x="0" y="25" width="1792" height="1048" />
+    </state>
+    <state x="460" y="416" key="EnvironmentVariablesDialog/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699354347390" />
+    <state width="1750" height="417" key="GridCell.Tab.0.bottom" timestamp="1699355176143">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="231" key="GridCell.Tab.0.bottom/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699273716123" />
-    <state width="1750" height="454" key="GridCell.Tab.0.bottom/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327877446" />
+    <state width="1750" height="417" key="GridCell.Tab.0.bottom/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699355176143" />
     <state width="1750" height="124" key="GridCell.Tab.0.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301045" />
-    <state width="1750" height="454" key="GridCell.Tab.0.center" timestamp="1699327877446">
+    <state width="1750" height="417" key="GridCell.Tab.0.center" timestamp="1699355176143">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="231" key="GridCell.Tab.0.center/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699273716122" />
-    <state width="1750" height="454" key="GridCell.Tab.0.center/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327877446" />
+    <state width="1750" height="417" key="GridCell.Tab.0.center/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699355176143" />
     <state width="1750" height="124" key="GridCell.Tab.0.center/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301044" />
-    <state width="1750" height="454" key="GridCell.Tab.0.left" timestamp="1699327877446">
+    <state width="1750" height="417" key="GridCell.Tab.0.left" timestamp="1699355176142">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="231" key="GridCell.Tab.0.left/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699273716121" />
-    <state width="1750" height="454" key="GridCell.Tab.0.left/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327877446" />
+    <state width="1750" height="417" key="GridCell.Tab.0.left/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699355176142" />
     <state width="1750" height="124" key="GridCell.Tab.0.left/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301044" />
-    <state width="1750" height="454" key="GridCell.Tab.0.right" timestamp="1699327877446">
+    <state width="1750" height="417" key="GridCell.Tab.0.right" timestamp="1699355176143">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="231" key="GridCell.Tab.0.right/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699273716122" />
-    <state width="1750" height="454" key="GridCell.Tab.0.right/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327877446" />
+    <state width="1750" height="417" key="GridCell.Tab.0.right/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699355176143" />
     <state width="1750" height="124" key="GridCell.Tab.0.right/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301045" />
-    <state width="1750" height="454" key="GridCell.Tab.1.bottom" timestamp="1699327877447">
+    <state width="1750" height="417" key="GridCell.Tab.1.bottom" timestamp="1699355176144">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="231" key="GridCell.Tab.1.bottom/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699273716125" />
-    <state width="1750" height="454" key="GridCell.Tab.1.bottom/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327877447" />
+    <state width="1750" height="417" key="GridCell.Tab.1.bottom/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699355176144" />
     <state width="1750" height="124" key="GridCell.Tab.1.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301046" />
-    <state width="1750" height="454" key="GridCell.Tab.1.center" timestamp="1699327877447">
+    <state width="1750" height="417" key="GridCell.Tab.1.center" timestamp="1699355176143">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="231" key="GridCell.Tab.1.center/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699273716124" />
-    <state width="1750" height="454" key="GridCell.Tab.1.center/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327877447" />
+    <state width="1750" height="417" key="GridCell.Tab.1.center/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699355176143" />
     <state width="1750" height="124" key="GridCell.Tab.1.center/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301046" />
-    <state width="1750" height="454" key="GridCell.Tab.1.left" timestamp="1699327877447">
+    <state width="1750" height="417" key="GridCell.Tab.1.left" timestamp="1699355176143">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="231" key="GridCell.Tab.1.left/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699273716123" />
-    <state width="1750" height="454" key="GridCell.Tab.1.left/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327877447" />
+    <state width="1750" height="417" key="GridCell.Tab.1.left/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699355176143" />
     <state width="1750" height="124" key="GridCell.Tab.1.left/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301045" />
-    <state width="1750" height="454" key="GridCell.Tab.1.right" timestamp="1699327877447">
+    <state width="1750" height="417" key="GridCell.Tab.1.right" timestamp="1699355176144">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state width="1878" height="231" key="GridCell.Tab.1.right/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699273716124" />
-    <state width="1750" height="454" key="GridCell.Tab.1.right/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699327877447" />
+    <state width="1750" height="417" key="GridCell.Tab.1.right/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699355176144" />
     <state width="1750" height="124" key="GridCell.Tab.1.right/0.25.1792.1048@0.25.1792.1048" timestamp="1699089301046" />
     <state width="1878" height="246" key="GridCell.Tab.2.bottom" timestamp="1698997690995">
       <screen x="-1920" y="-406" width="1920" height="1055" />
@@ -347,11 +365,11 @@
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
     <state x="-1472" y="-300" key="SettingsEditor/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698835709010" />
-    <state x="-847" y="-133" width="540" height="524" key="StructurePopup" timestamp="1699016883874">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state x="1001" y="296" width="525" height="521" key="StructurePopup" timestamp="1699352293588">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-847" y="-133" width="540" height="524" key="StructurePopup/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699016883874" />
-    <state x="1001" y="296" width="525" height="521" key="StructurePopup/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698826667980" />
+    <state x="1001" y="296" width="525" height="521" key="StructurePopup/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699352293588" />
     <state x="1001" y="296" width="525" height="521" key="StructurePopup/0.25.1792.1048@0.25.1792.1048" timestamp="1698587207224" />
     <state x="-1281" y="-50" key="com.intellij.ide.util.TipDialog" timestamp="1698990859218">
       <screen x="-1920" y="-406" width="1920" height="1055" />
@@ -361,10 +379,15 @@
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
     <state x="-1504" y="-139" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698903712216" />
-    <state x="-1821" y="-306" width="1720" height="855" key="dock-window-1" timestamp="1698913654172">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state x="92" y="124" width="1606" height="850" key="dock-window-1" timestamp="1699352223301">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-1821" y="-306" width="1720" height="855" key="dock-window-1/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1698913654172" />
+    <state x="92" y="124" width="1606" height="850" key="dock-window-1/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699352223301" />
+    <state x="100" y="125" width="1592" height="848" key="dock-window-2" timestamp="1699352223301">
+      <screen x="0" y="25" width="1792" height="1048" />
+    </state>
+    <state x="100" y="125" width="1592" height="848" key="dock-window-2/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699352223301" />
     <state x="-1321" y="-123" width="1222" height="490" key="find.popup" timestamp="1699000115331">
       <screen x="-1920" y="-406" width="1920" height="1055" />
     </state>
@@ -380,16 +403,16 @@
     <state x="-1556" y="-178" key="new project wizard/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699271256031" />
     <state x="483" y="249" key="new project wizard/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698669932977" />
     <state x="511" y="388" key="new project wizard/0.25.1792.1048@0.25.1792.1048" timestamp="1699070679646" />
-    <state x="-1319" y="-176" key="run.anything.popup" timestamp="1699016085519">
-      <screen x="-1920" y="-406" width="1920" height="1055" />
+    <state x="561" y="253" key="run.anything.popup" timestamp="1699353021066">
+      <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-1319" y="-176" key="run.anything.popup/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699016085519" />
-    <state x="561" y="253" key="run.anything.popup/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698654432771" />
-    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup" timestamp="1699090373940">
+    <state x="561" y="253" key="run.anything.popup/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699353021066" />
+    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup" timestamp="1699352274229">
       <screen x="0" y="25" width="1792" height="1048" />
     </state>
     <state x="-1278" y="-172" width="670" height="676" key="search.everywhere.popup/0.25.1792.1048/-1920.-406.1920.1055@-1920.-406.1920.1055" timestamp="1699015183009" />
-    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1698892729996" />
+    <state x="599" y="257" width="670" height="672" key="search.everywhere.popup/0.25.1792.1048/-1920.-406.1920.1055@0.25.1792.1048" timestamp="1699352274229" />
     <state x="599" y="257" width="670" height="672" key="search.everywhere.popup/0.25.1792.1048@0.25.1792.1048" timestamp="1699090373940" />
   </component>
   <component name="XDebuggerManager">
