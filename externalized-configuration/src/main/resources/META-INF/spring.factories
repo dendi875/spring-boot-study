@@ -1,0 +1,16 @@
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.zq.externalized.configuration.run.ExtendPropertySourceRunListener
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.zq.externalized.configuration.listener.ExtendPropertySourceApplicationListener,\
+com.zq.externalized.configuration.listener.ExtendPropertySourceApplicationListener2
+
+# Environment Post Processors
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.zq.externalized.configuration.processor.ExtendPropertySourceEnvironmentPostProcessor
+
+# Application Context Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.zq.externalized.configuration.initializer.ExtendPropertySourceApplicationContextInitializer

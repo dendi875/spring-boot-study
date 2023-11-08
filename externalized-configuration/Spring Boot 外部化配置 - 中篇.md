@@ -284,6 +284,8 @@ public interface Environment extends PropertyResolver {
 - 这里的 Environment 对象是通过 @Bean 的方法注入进行获取的
 
 ```java
+public class ValueAnnotationBootstrap {	
+  
 	@Bean
 	public User user3(Environment environment) {
 		Long id = environment.getProperty("user.id", Long.class);
@@ -312,16 +314,16 @@ System.out.println("用户对象 Environment 方法注入 user3： " + user3);
 ### 2.2 Environment 构造器注入
 
 ```java
-	private  Environment environment;
+public class ValueAnnotationBootstrap {
+
+  private  Environment environment;
 
 	@Autowired
 	public ValueAnnotationBootstrap(Environment environment) {
 		this.environment = environment;
 	}
-```
-
-```java
-	@Bean
+  
+  @Bean
 	public User user4() {
 		Long id = this.environment.getProperty("user.id", Long.class);
 		String name = this.environment.getProperty("user.name");
@@ -349,12 +351,12 @@ System.out.println("用户对象 Environment 构造器注入 user4： " + user4)
 ### 2.3 Environment 字段注入
 
 ```java
-	@Autowired
+public class ValueAnnotationBootstrap {
+  
+  @Autowired
 	private Environment environment1;
-```
-
-```java
-	@Bean
+  
+  @Bean
 	public User user5() {
 		Long id = this.environment1.getProperty("user.id", Long.class);
 		String name = this.environment1.getProperty("user.name");
@@ -369,8 +371,8 @@ System.out.println("用户对象 Environment 构造器注入 user4： " + user4)
 ```
 
 ```java
-		User user5 = applicationContext.getBean("user5", User.class);
-		System.out.println("用户对象 Environment 字段注入 user5： " + user5);
+User user5 = applicationContext.getBean("user5", User.class);
+System.out.println("用户对象 Environment 字段注入 user5： " + user5);
 ```
 
 运行结果：
@@ -391,11 +393,7 @@ public class ValueAnnotationBootstrap implements EnvironmentAware {
 			this.environment3 = environment;
 	}
   
-  ...
-```
-
-```java
-	@Bean
+  @Bean
 	public User user6() {
 		Long id = this.environment3.getProperty("user.id", Long.class);
 		String name = this.environment3.getProperty("user.name");
