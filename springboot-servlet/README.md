@@ -1,3 +1,6 @@
+## 主要类
+* FilterRegistrationBean
+
 ## 命令
 
 ### 部署  springboot-servlet

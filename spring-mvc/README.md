@@ -14,6 +14,17 @@
 
 ### WebApplicationInitializer
 
+### RequestContextHolder
+
+### ServletRequestAttributes
+
+```java
+        ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        HttpServletRequest request = attributes.getRequest();
+```
+
+
+
 ## 主要注解
 
 ### @EnableWebMvc
